@@ -1,2 +1,2 @@
 # Delivery-Jokes_Frontend
-The Frontend Codebase for the Delivery Jokes Service
+The Full Stack Developer Test by Coduza (Pvt) Ltd
