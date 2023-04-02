@@ -49,7 +49,7 @@ const JokeRetrevalHandler = async (event) => {
     if (the_response.status == "ok") {
       setdescription(the_response.data.description);
       setoptions(the_response.data.type);
-      Swal.fire(`A random joke of ${item_type} category was successfully retrieved`);
+      Swal.fire(`A random joke of "${item_type}" category was successfully retrieved`);
       //alert(`A random joke of ${item_type} category was successfully retrieved`);
     }
   } catch (err) {
